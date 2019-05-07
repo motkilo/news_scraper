@@ -4,15 +4,10 @@ var Schema = mongoose.Schema;
 
 var CommentSchema = new Schema ({
 
-  name: String,
+
   title: String,
-  body: String,
-  date: {
-    type: Date,
-    default: Date.now
-  },
-  hidden: Boolean,
-  unique: true
+
+  body: String
 });
 
 var Comment = mongoose.model("Comment", CommentSchema);

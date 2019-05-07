@@ -39,10 +39,34 @@ body {
   /* text-shadow: -1px 0 #b3b3b3, 0 1px #b3b3b3, 1px 0 #b3b3b3, 0 -1px #b3b3b3; */
 }
 
+/* NAVABAR STUFF */
+.navbar {
+  margin-top: 0px;
+}
+
+/* SCRAPE AND CLEAR BUTTONS */
+#button-section {
+  /* background-color: #b3b3b3; */
+  align-content: center;
+  width: 40%;
+  
+}
+
+#scrape-btn {
+  background-color: green;
+
+}
+
+#clear-btn {
+  background-color: orange;
+  
+
+}
+
 /* Footer info */
 .footer {
   height: 3vw;
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0; 
